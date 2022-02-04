@@ -5,7 +5,7 @@ namespace Spider;
 use pocketmine\Server;
 use pocketmine\player\Player;
 use pocketmine\command\{Command, CommandSender};
-use Spider\libs\jojoe77777\FormAPI\SimpleForm;
+use jojoe77777\FormAPI\SimpleForm;
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener;
 
