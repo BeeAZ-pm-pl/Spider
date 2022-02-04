@@ -1,0 +1,15 @@
+name: Spider
+version: 0.1
+api: 4.0.0
+main: Spider\Main
+author: BeeAZZ
+description: Wall Climbing Skill For Pocketmine
+
+commands:
+ spider:
+  description: Spider Command
+  permission: spider.command
+permissions:
+ spider.command:
+  default: op
+  

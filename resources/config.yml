@@ -1,0 +1,8 @@
+message-on: "Open Spider"
+message-off: "Off Spider"
+
+#form
+title: "Spider"
+content: "Wall Climbing Skill"
+button1: "Open"
+button2: "Off"
