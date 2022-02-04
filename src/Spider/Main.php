@@ -5,7 +5,7 @@ namespace Spider;
 use pocketmine\Server;
 use pocketmine\player\Player;
 use pocketmine\command\{Command, CommandSender};
-use jojoe77777\FormAPI;
+use Spider\libs\jojoe77777\FormAPI\SimpleForm;
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener;
 
@@ -30,8 +30,8 @@ class Main extends PluginBase implements Listener{
   return true;
   }
   public function menu($sender){
-  $api = $this->getServer()->getPluginManager()->getPlugin("FormAPI");
-  $form = $api->createSimpleForm(function(Player $sender, $data){
+
+  $form = new SimpleForm(function(Player $sender, $data){
   if($data === null){
   return true;
   }
