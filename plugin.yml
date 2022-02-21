@@ -1,7 +1,7 @@
 name: Spider
 version: 0.1
 api: 4.0.0
-main: Spider\Main
+main: BeeAZZ\Spider\Main
 author: BeeAZZ
 description: Wall Climbing Skill For Pocketmine
 
